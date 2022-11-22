@@ -4,9 +4,7 @@ const multer = require("multer");
 const streamifier = require("streamifier");
 const sendgrid = require("@sendgrid/mail");
 
-sendgrid.setApiKey(
-  "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"
-);
+
 
 const app = express();
 const port = 2335;
